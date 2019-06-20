@@ -1,0 +1,38 @@
+{
+  "name": "umi-plugin-import",
+  "version": "1.0.0",
+  "description": "wrapped babel-plugin-import for umi",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "scripty"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimCN/umi-plugin-import.git"
+  },
+  "keywords": [],
+  "author": "tim Huang <tim.shanghai@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TimCN/umi-plugin-import/issues"
+  },
+  "files": [
+    "lib",
+    "*.md"
+  ],
+  "homepage": "https://github.com/TimCN/umi-plugin-import#readme",
+  "dependencies": {
+    "babel-plugin-import": "^1.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+    "@babel/plugin-transform-arrow-functions": "^7.2.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.4.4",
+    "@babel/plugin-transform-spread": "^7.2.2",
+    "@babel/plugin-transform-typescript": "^7.4.5",
+    "rimraf": "^2.6.3",
+    "scripty": "^1.9.1"
+  }
+}
